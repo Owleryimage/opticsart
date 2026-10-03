@@ -101,3 +101,4 @@ npm run preview    # 预览构建产物
 - 图片由 GitHub 仓库 + jsDelivr 托管，无需第三方图床或额外密钥。
 
 > 若需要 4K（3840px）存储，调整 `src/components/ImageField.tsx` 中的 `MAX_DIM` 即可。
+> 线上地址（GitHub Pages）：https://owleryimage.github.io/opticsart/
