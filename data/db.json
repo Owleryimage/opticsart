@@ -45,12 +45,6 @@
       }
     ]
   },
-  "admin": {
-    "username": "admin",
-    "salt": "3bc3ddd76237fe533434433901195d86",
-    "hash": "f870f706b55cd9dc1e6fa02332dd0f4559e947bd9be3a04cebe461e9f67ff50b0458db28361d4c6928d02a1525f5eca14c0478bb479a56aba5373b13556ebd51",
-    "createdAt": 1790919482365
-  },
   "themes": [
     {
       "id": "MUQJ7WN29EGESQ",
@@ -129,7 +123,7 @@
       "id": "MUQJ7WN5Y48HUD",
       "title": "夜行",
       "description": "夜行 — 社团示例作品，可在后台替换为正稿。",
-      "image": "/uploads/seed-muqj7wn5oaz5u7.svg",
+      "image": "https://cdn.jsdelivr.net/gh/Owleryimage/opticsart@main/data/uploads/img-musolrmd-iw5beo.jpg",
       "themeId": "MUQJ7WN29EGESQ",
       "categoryId": "MUQJ7WN2A67XMI",
       "photographerId": "MUQJ7WN2V02ZR3",
@@ -278,5 +272,11 @@
       "createdAt": 1790746682386,
       "expiresAt": ""
     }
-  ]
+  ],
+  "admin": {
+    "username": "admin",
+    "salt": "3bc3ddd76237fe533434433901195d86",
+    "hash": "f870f706b55cd9dc1e6fa02332dd0f4559e947bd9be3a04cebe461e9f67ff50b0458db28361d4c6928d02a1525f5eca14c0478bb479a56aba5373b13556ebd51",
+    "createdAt": 1790919482365
+  }
 }
