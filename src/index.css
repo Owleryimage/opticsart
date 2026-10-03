@@ -1,0 +1,84 @@
+/* 瑞士国际主义风格（International Typographic Style）设计变量。
+   在 CloudAI 插件注入的语义 token 之上，用同一层（@layer base）的 :root 覆盖，
+   保证后定义的变量优先生效；组件仍使用 bg-background / text-foreground 等语义类，
+   但呈现为黑白红 + Helvetica 的瑞士版面。 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* 墨黑 / 纯白 / 浅灰 —— 瑞士标准三色 */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 94%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 94%;
+    --muted-foreground: 0 0% 40%;
+    --accent: 0 0% 92%;
+    --accent-foreground: 0 0% 9%;
+    --border: 0 0% 80%;
+    --input: 0 0% 80%;
+    --ring: 0 0% 9%;
+    /* 瑞士红：用作唯一强调色（激活态 / 规则 / 重点） */
+    --destructive: 0 78% 50%;
+    --destructive-foreground: 0 0% 100%;
+    /* 直角：瑞士网格不用圆角 */
+    --radius: 0px;
+    /* 统一非衬线：Helvetica / Arial 系，符合瑞士国际主义 */
+    --font-sans: 'Helvetica Neue', Helvetica, Arial, 'Inter', 'PingFang SC',
+      'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    --font-serif: 'Helvetica Neue', Helvetica, Arial, 'Inter', 'PingFang SC',
+      'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    /* 瑞士排版：整体轻微收紧字距 */
+    letter-spacing: -0.011em;
+  }
+
+  /* 标题统一为 Helvetica 粗体 + 负字距，制造强烈的字号层级 */
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-sans);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  /* 瑞士风「栏目标签」：大写、宽字距、小号灰字，常用于板块前导 */
+  .kicker {
+    @apply text-xs font-medium uppercase tracking-[0.22em] text-muted-foreground;
+  }
+  /* 红色重点标记（瑞士红） */
+  .kicker-red {
+    @apply text-xs font-medium uppercase tracking-[0.22em] text-swiss-red;
+  }
+  /* 板块标题下的一道黑色细规则，呼应瑞士网格 */
+  .rule-top {
+    @apply border-t border-foreground;
+  }
+  /* 12 栏感的统一内容边距 */
+  .shell {
+    @apply mx-auto w-full max-w-[1280px] px-5 sm:px-8;
+  }
+}
