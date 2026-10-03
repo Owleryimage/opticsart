@@ -4,7 +4,46 @@
     "societyName": "OpticsArt光学视觉艺术协会",
     "siteDescription": "一个由摄影与视觉艺术爱好者组成的专业协会，记录光线、时间与真实的瞬间。",
     "about": "OpticsArt 光学视觉艺术协会汇聚了热衷于用影像与光学表达世界的创作者。我们举办展览、工作坊与采风活动，致力于让每一帧画面都承载思考。",
-    "contact": "邮箱：contact@opticsart.example.com　地址：示例市示例区光学路 1 号"
+    "contact": "邮箱：contact@opticsart.example.com　地址：示例市示例区光学路 1 号",
+    "nav": [
+      {
+        "id": "nav-home",
+        "label": "首页",
+        "type": "home",
+        "order": 1
+      },
+      {
+        "id": "nav-works",
+        "label": "作品",
+        "type": "link",
+        "target": "#/browse",
+        "order": 2
+      },
+      {
+        "id": "nav-photogs",
+        "label": "摄影师",
+        "type": "photographer",
+        "order": 3
+      },
+      {
+        "id": "nav-exhib",
+        "label": "展览",
+        "type": "exhibition",
+        "order": 4
+      },
+      {
+        "id": "nav-about",
+        "label": "关于",
+        "type": "about",
+        "order": 5
+      },
+      {
+        "id": "nav-admin",
+        "label": "后台",
+        "type": "admin",
+        "order": 6
+      }
+    ]
   },
   "admin": {
     "username": "admin",
