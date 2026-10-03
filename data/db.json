@@ -1,0 +1,243 @@
+{
+  "settings": {
+    "siteName": "OpticsArt",
+    "societyName": "OpticsArt光学视觉艺术协会",
+    "siteDescription": "一个由摄影与视觉艺术爱好者组成的专业协会，记录光线、时间与真实的瞬间。",
+    "about": "OpticsArt 光学视觉艺术协会汇聚了热衷于用影像与光学表达世界的创作者。我们举办展览、工作坊与采风活动，致力于让每一帧画面都承载思考。",
+    "contact": "邮箱：contact@opticsart.example.com　地址：示例市示例区光学路 1 号"
+  },
+  "admin": {
+    "username": "admin",
+    "salt": "3bc3ddd76237fe533434433901195d86",
+    "hash": "f870f706b55cd9dc1e6fa02332dd0f4559e947bd9be3a04cebe461e9f67ff50b0458db28361d4c6928d02a1525f5eca14c0478bb479a56aba5373b13556ebd51",
+    "createdAt": 1790919482365
+  },
+  "themes": [
+    {
+      "id": "MUQJ7WN29EGESQ",
+      "name": "城市夜景",
+      "description": "霓虹、车流与孤独的建筑轮廓。",
+      "order": 1
+    },
+    {
+      "id": "MUQJ7WN2IP5GJO",
+      "name": "自然光影",
+      "description": "山川、草木与一天里的光。",
+      "order": 2
+    }
+  ],
+  "categories": [
+    {
+      "id": "MUQJ7WN2H7SX4Q",
+      "name": "纪实",
+      "description": "真实发生的瞬间。",
+      "order": 1
+    },
+    {
+      "id": "MUQJ7WN2W2XZMV",
+      "name": "风光",
+      "description": "自然与地景。",
+      "order": 2
+    },
+    {
+      "id": "MUQJ7WN24UHL02",
+      "name": "人像",
+      "description": "面孔与情绪。",
+      "order": 3
+    },
+    {
+      "id": "MUQJ7WN2A67XMI",
+      "name": "街头",
+      "description": "城市里的偶然。",
+      "order": 4
+    }
+  ],
+  "photographers": [
+    {
+      "id": "MUQJ7WN2V02ZR3",
+      "name": "林深",
+      "bio": "关注城市与人的距离，偏好冷色调的长曝光。",
+      "avatar": "/uploads/seed-muqj7wn2gub5u6.svg",
+      "order": 1
+    },
+    {
+      "id": "MUQJ7WN3CDLPC9",
+      "name": "苏野",
+      "bio": "用自然光记录山野与季节的更替。",
+      "avatar": "/uploads/seed-muqj7wn3sw4vkm.svg",
+      "order": 2
+    }
+  ],
+  "years": [
+    {
+      "id": "MUQJ7WN4UWKH4U",
+      "year": 2024,
+      "description": ""
+    },
+    {
+      "id": "MUQJ7WN4LOXA7J",
+      "year": 2025,
+      "description": ""
+    },
+    {
+      "id": "MUQJ7WN42RP3E6",
+      "year": 2026,
+      "description": ""
+    }
+  ],
+  "works": [
+    {
+      "id": "MUQJ7WN5Y48HUD",
+      "title": "夜行",
+      "description": "夜行 — 社团示例作品，可在后台替换为正稿。",
+      "image": "/uploads/seed-muqj7wn5oaz5u7.svg",
+      "themeId": "MUQJ7WN29EGESQ",
+      "categoryId": "MUQJ7WN2A67XMI",
+      "photographerId": "MUQJ7WN2V02ZR3",
+      "year": 2026,
+      "location": "示例城市",
+      "camera": "",
+      "featured": true,
+      "published": true,
+      "order": 0,
+      "createdAt": 1790919482373
+    },
+    {
+      "id": "MUQJ7WN9IGKA6M",
+      "title": "霓虹巷",
+      "description": "霓虹巷 — 社团示例作品，可在后台替换为正稿。",
+      "image": "/uploads/seed-muqj7wn91eh70i.svg",
+      "themeId": "MUQJ7WN29EGESQ",
+      "categoryId": "MUQJ7WN2A67XMI",
+      "photographerId": "MUQJ7WN2V02ZR3",
+      "year": 2025,
+      "location": "示例城市",
+      "camera": "",
+      "featured": true,
+      "published": true,
+      "order": 1,
+      "createdAt": 1790919482374
+    },
+    {
+      "id": "MUQJ7WNAGOL0VY",
+      "title": "潮间带",
+      "description": "潮间带 — 社团示例作品，可在后台替换为正稿。",
+      "image": "/uploads/seed-muqj7wnab2h4i2.svg",
+      "themeId": "MUQJ7WN2IP5GJO",
+      "categoryId": "MUQJ7WN2W2XZMV",
+      "photographerId": "MUQJ7WN3CDLPC9",
+      "year": 2025,
+      "location": "示例城市",
+      "camera": "",
+      "featured": true,
+      "published": true,
+      "order": 2,
+      "createdAt": 1790919482376
+    },
+    {
+      "id": "MUQJ7WNCEOL5PQ",
+      "title": "晨雾山脊",
+      "description": "晨雾山脊 — 社团示例作品，可在后台替换为正稿。",
+      "image": "/uploads/seed-muqj7wnco34p0p.svg",
+      "themeId": "MUQJ7WN2IP5GJO",
+      "categoryId": "MUQJ7WN2W2XZMV",
+      "photographerId": "MUQJ7WN3CDLPC9",
+      "year": 2024,
+      "location": "示例城市",
+      "camera": "",
+      "featured": false,
+      "published": true,
+      "order": 3,
+      "createdAt": 1790919482377
+    },
+    {
+      "id": "MUQJ7WND9R4URO",
+      "title": "等车的人",
+      "description": "等车的人 — 社团示例作品，可在后台替换为正稿。",
+      "image": "/uploads/seed-muqj7wndbnm742.svg",
+      "themeId": "MUQJ7WN29EGESQ",
+      "categoryId": "MUQJ7WN2H7SX4Q",
+      "photographerId": "MUQJ7WN2V02ZR3",
+      "year": 2026,
+      "location": "示例城市",
+      "camera": "",
+      "featured": false,
+      "published": true,
+      "order": 4,
+      "createdAt": 1790919482379
+    },
+    {
+      "id": "MUQJ7WNFNEWJMV",
+      "title": "窗边",
+      "description": "窗边 — 社团示例作品，可在后台替换为正稿。",
+      "image": "/uploads/seed-muqj7wnf45v11f.svg",
+      "themeId": "MUQJ7WN2IP5GJO",
+      "categoryId": "MUQJ7WN24UHL02",
+      "photographerId": "MUQJ7WN3CDLPC9",
+      "year": 2026,
+      "location": "示例城市",
+      "camera": "",
+      "featured": false,
+      "published": true,
+      "order": 5,
+      "createdAt": 1790919482380
+    }
+  ],
+  "exhibitions": [
+    {
+      "id": "MUQJ7WNHHSQVOZ",
+      "title": "2026 年度光影展",
+      "subtitle": "光、城市与远方",
+      "description": "本年度社团精选作品联展，呈现城市夜景与自然光影两条线索。",
+      "coverImage": "/uploads/seed-muqj7wng3eze3g.svg",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-30",
+      "location": "示例美术馆 2 号厅",
+      "status": "upcoming",
+      "curator": "光影摄影社团策展组",
+      "workIds": [
+        "MUQJ7WN5Y48HUD",
+        "MUQJ7WN9IGKA6M",
+        "MUQJ7WNAGOL0VY"
+      ],
+      "published": true,
+      "order": 1,
+      "createdAt": 1790919482381
+    }
+  ],
+  "announcements": [
+    {
+      "id": "MUQJ7WNM1X5I5A",
+      "title": "2026 年度光影展开幕预告",
+      "body": "年度联展将于 11 月 1 日开幕，欢迎社员与公众参观。具体票务信息随后公布。",
+      "image": "/uploads/seed-muqj7wnhdg1ml5.svg",
+      "type": "event",
+      "pinned": true,
+      "published": true,
+      "createdAt": 1790919482386,
+      "expiresAt": ""
+    },
+    {
+      "id": "MUQJ7WNMU25C36",
+      "title": "街头摄影工作坊招募",
+      "body": "由资深社员带领，两周四次线下课程，从取景到后期完整训练。面向全体社员开放报名。",
+      "image": "/uploads/seed-muqj7wnjxp8nl7.svg",
+      "type": "event",
+      "pinned": false,
+      "published": true,
+      "createdAt": 1790833082386,
+      "expiresAt": ""
+    },
+    {
+      "id": "MUQJ7WNM45YHR3",
+      "title": "城市光影采风报名",
+      "body": "周末城市步行采风，路线覆盖老城区与滨江，配备领队与器材借用。名额有限，先到先得。",
+      "image": "/uploads/seed-muqj7wnkosal3b.svg",
+      "type": "notice",
+      "pinned": false,
+      "published": true,
+      "createdAt": 1790746682386,
+      "expiresAt": ""
+    }
+  ]
+}
