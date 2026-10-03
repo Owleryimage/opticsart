@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+npm-debug.log*
+.env
+.env.*
+!.env.example
+.vite
+
+# 旧 Node 服务端的运行时密钥（静态版已不再使用，但避免误提交）
+server/data/secret.txt
+data/secret.txt
